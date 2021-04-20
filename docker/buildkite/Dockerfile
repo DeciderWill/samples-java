@@ -14,3 +14,5 @@ RUN apk add --virtual git
 
 RUN mkdir /temporal-java-samples
 WORKDIR /temporal-java-samples
+
+COPY . .
